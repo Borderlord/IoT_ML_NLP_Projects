@@ -10,3 +10,10 @@ g.close();
 """
 
 f=open('/home/vikas/Desktop/file.csv','rt');
+reader=csv.reader(f);
+
+for row in reader:
+ print row;
+
+f.close();
+
