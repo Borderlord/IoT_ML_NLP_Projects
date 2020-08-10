@@ -6,4 +6,11 @@ from bs4 import BeautifulSoup
 #print data;
 
 
-datafromwebsite=urllib.urlopen("https://api.thingspeak.com/channels/289288
+datafromwebsite=urllib.urlopen("https://api.thingspeak.com/channels/289288/feeds.json?results=2");
+select=repr(datafromwebsite.read());
+select=select[300:];
+
+pick=re.search('field1":"(.+?)",',select);
+if pick:
+ print pick.group(1);
+
