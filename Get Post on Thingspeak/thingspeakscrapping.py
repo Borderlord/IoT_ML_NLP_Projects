@@ -9,4 +9,11 @@ data=urllib.urlopen("https://api.thingspeak.com/update?api_key=CLRP7LZ00SCB6GKM&
 print data;
 
 
-fed=urllib.urlopen("https://api.thingspeak.com/channels/251862/fields/1.json?results=2")
+fed=urllib.urlopen("https://api.thingspeak.com/channels/251862/fields/1.json?results=2");
+b=repr(fed.read());
+b=b[400:470];
+print(b);
+m = re.search('field1":"(.+?)"}', b)
+if m:
+ found=m.group(1)
+ print found;
