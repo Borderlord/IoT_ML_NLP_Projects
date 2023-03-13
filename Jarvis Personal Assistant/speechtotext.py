@@ -11,4 +11,10 @@ location="INDIA"
 eng.setProperty('rate',150);
 #eng.say("Hello Vikas ,i am Jarvis  What can i Do for you ? ");
 #eng.runAndWait()
-print("Hello Vikas ,i am Jar
+print("Hello Vikas ,i am Jarvis What can i Do for you ?");
+print("Speak Something :--");
+#r.energy_threshold = 4000
+
+while 1:
+        try:
+            with sr.Microphone() as so
