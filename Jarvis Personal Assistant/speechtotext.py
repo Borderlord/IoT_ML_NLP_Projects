@@ -20,4 +20,9 @@ while 1:
             with sr.Microphone() as source:
                 r.adjust_for_ambient_noise(source)
                 audio = r.listen(source)
-                pinger=r.recogni
+                pinger=r.recognize_google(audio)
+              
+            try:
+                if(len(pinger)>1):
+                  print("you Speak : "+pinger);
+                  #eng.say("you speak "
