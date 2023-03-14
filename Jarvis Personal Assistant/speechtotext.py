@@ -17,4 +17,7 @@ print("Speak Something :--");
 
 while 1:
         try:
-            with sr.Microphone() as so
+            with sr.Microphone() as source:
+                r.adjust_for_ambient_noise(source)
+                audio = r.listen(source)
+                pinger=r.recogni
