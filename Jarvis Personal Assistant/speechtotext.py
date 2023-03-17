@@ -29,4 +29,9 @@ while 1:
                   #eng.runAndWait()
                   
                 if (pinger == "what is the time right now") :
-                    eng.say(time.cti
+                    eng.say(time.ctime());
+                    eng.runAndWait()
+                    print(time.ctime());
+                    continue
+                  
+     
