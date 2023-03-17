@@ -25,4 +25,8 @@ while 1:
             try:
                 if(len(pinger)>1):
                   print("you Speak : "+pinger);
-                  #eng.say("you speak "
+                  #eng.say("you speak "+pinger);
+                  #eng.runAndWait()
+                  
+                if (pinger == "what is the time right now") :
+                    eng.say(time.cti
