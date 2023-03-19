@@ -34,4 +34,7 @@ while 1:
                     print(time.ctime());
                     continue
                   
-     
+                elif "where is " in pinger:
+                   pinger=pinger.split(" ")
+                   if len(pinger)>3:
+                     location=pi
