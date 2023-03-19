@@ -37,4 +37,7 @@ while 1:
                 elif "where is " in pinger:
                    pinger=pinger.split(" ")
                    if len(pinger)>3:
-                     location=pi
+                     location=pinger[2]+" " +pinger[3]
+                   else:
+                     location=pinger[2]
+                   wb.open_new_tab("https://www.google.nl/maps/
