@@ -40,4 +40,8 @@ while 1:
                      location=pinger[2]+" " +pinger[3]
                    else:
                      location=pinger[2]
-                   wb.open_new_tab("https://www.google.nl/maps/
+                   wb.open_new_tab("https://www.google.nl/maps/place/" + location + "/&amp;");
+                   eng.say("Here is "+location);
+                   eng.runAndWait() 
+                   continue
+             
