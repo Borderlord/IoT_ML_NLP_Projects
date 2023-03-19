@@ -44,4 +44,7 @@ while 1:
                    eng.say("Here is "+location);
                    eng.runAndWait() 
                    continue
-             
+                elif "send a mail" in pinger :
+                   mail=raw_input("Plese Enter your Mail-Id: ");
+                   import yagmail
+                   yag = yagmail.SMTP("you
