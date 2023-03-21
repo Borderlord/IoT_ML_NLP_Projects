@@ -54,4 +54,8 @@ while 1:
                 else:
                     continue
             except LookupError,sr.RequestError:
-                cont
+                continue
+        except sr.UnknownValueError:
+            continue 
+
+
