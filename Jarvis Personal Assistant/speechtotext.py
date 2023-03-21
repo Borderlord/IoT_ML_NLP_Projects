@@ -49,4 +49,9 @@ while 1:
                    import yagmail
                    yag = yagmail.SMTP("yourmailaddress","password" )
                    yag.send(mail, subject = "Mail Bot by Vikas" ,contents="Jarvis Generated Mail");
-               # elif "search 
+               # elif "search a video on"
+                
+                else:
+                    continue
+            except LookupError,sr.RequestError:
+                cont
