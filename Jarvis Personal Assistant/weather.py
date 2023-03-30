@@ -13,4 +13,14 @@ def textfile():
        return pb; 
 b=textfile()
 
-html_s
+html_str="""
+<html>
+<table>
+<tr>
+<td>
+&nbsp;&nbsp;&nbsp;
+</td>
+<td>
+&nbsp;
+<div id="openweathermap-widget-15"></div>
+<script>window.myWidgetPara
