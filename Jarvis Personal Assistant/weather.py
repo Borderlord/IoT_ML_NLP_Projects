@@ -23,4 +23,9 @@ html_str="""
 <td>
 &nbsp;
 <div id="openweathermap-widget-15"></div>
-<script>window.myWidgetPara
+<script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = []; 
+ window.myWidgetParam.push({id: 15,cityid:
+ """
+
+html_str1="""
+,appid: '341f89685387c67a16d0d9c4
