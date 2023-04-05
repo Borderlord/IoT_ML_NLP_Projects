@@ -28,4 +28,6 @@ html_str="""
  """
 
 html_str1="""
-,appid: '341f89685387c67a16d0d9c4
+,appid: '341f89685387c67a16d0d9c4e3f3da97',units: 'metric',
+ containerid: 'openweathermap-widget-15',  });  (function() {var script = document.createElement('script');
+ script.asyn
