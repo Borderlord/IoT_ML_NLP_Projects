@@ -32,4 +32,13 @@ html_str1="""
  containerid: 'openweathermap-widget-15',  });  (function() {var script = document.createElement('script');
  script.async = true;script.charset = "utf-8";
  script.src = "https://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
- var s = do
+ var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
+
+</td>
+
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+
+<td>
+&nbsp
