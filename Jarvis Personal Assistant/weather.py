@@ -41,4 +41,7 @@ html_str1="""
 </td>
 
 <td>
-&nbsp
+&nbsp;
+<div id="openweathermap-widget-1"></div>
+<script src='https://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'>
+</script><script
