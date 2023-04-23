@@ -44,4 +44,8 @@ html_str1="""
 &nbsp;
 <div id="openweathermap-widget-1"></div>
 <script src='https://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'>
-</script><script
+</script><script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = []; 
+ window.myWidgetParam.push({id: 1,cityid: """
+
+html_str2="""
+,appid: '341f89685
