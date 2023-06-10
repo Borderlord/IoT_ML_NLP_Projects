@@ -50,4 +50,5 @@ html_str1="""
 html_str2="""
 ,appid: '341f89685387c67a16d0d9c4e3f3da97',
  units: 'metric',containerid: 'openweathermap-widget-1',  });  (function() {var script = document.createElement('script');
- script.async
+ script.async = true;script.charset = "utf-8";script.src = "https://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
+ var s = document
