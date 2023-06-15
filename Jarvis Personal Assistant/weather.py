@@ -64,4 +64,8 @@ mylist =['1261481','1269515','1279259','6058560','3522186','6619347'];
 
 print b[0]
 url="C:\Users\Vikas Yadav\Desktop\weather.html"
-Html_file= op
+Html_file= open(url,"w")
+Html_file.write(html_str+b[0]+html_str1+b[0]+html_str2) #mylist[1]
+Html_file.close()
+
+p=requests.get('http://api.openweathermap.org/data/2.5/weather?q
