@@ -59,4 +59,9 @@ html_str2="""
 </html>
 
 """
-# New Delhi , Jaipur , Agra ,London 
+# New Delhi , Jaipur , Agra ,London , Japan , Mumbai
+mylist =['1261481','1269515','1279259','6058560','3522186','6619347'];
+
+print b[0]
+url="C:\Users\Vikas Yadav\Desktop\weather.html"
+Html_file= op
