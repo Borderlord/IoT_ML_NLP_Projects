@@ -68,4 +68,9 @@ Html_file= open(url,"w")
 Html_file.write(html_str+b[0]+html_str1+b[0]+html_str2) #mylist[1]
 Html_file.close()
 
-p=requests.get('http://api.openweathermap.org/data/2.5/weather?q
+p=requests.get('http://api.openweathermap.org/data/2.5/weather?q='+inn+'&appid=341f89685387c67a16d0d9c4e3f3da97');
+json_obj=p.json();
+
+w_country =json_obj['sys']['country']
+#w_weather =json_obj['weather']['description']
+w_clouds =json_o
