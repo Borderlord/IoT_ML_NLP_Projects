@@ -73,4 +73,8 @@ json_obj=p.json();
 
 w_country =json_obj['sys']['country']
 #w_weather =json_obj['weather']['description']
-w_clouds =json_o
+w_clouds =json_obj['clouds']['all']
+w_windspeed=json_obj['wind']['speed']
+w_temperature =json_obj['main']['temp']
+w_pressure =json_obj['main']['pressure']
+w_humidity =json_obj['main']['humidity
