@@ -77,4 +77,11 @@ w_clouds =json_obj['clouds']['all']
 w_windspeed=json_obj['wind']['speed']
 w_temperature =json_obj['main']['temp']
 w_pressure =json_obj['main']['pressure']
-w_humidity =json_obj['main']['humidity
+w_humidity =json_obj['main']['humidity']
+w_sunrise =json_obj['sys']['sunrise']
+w_sunset =json_obj['sys']['sunset']
+
+wb.open_new_tab(url);
+
+uurl="precipitation" ;#"temperature","wind speed";
+#wb.open
