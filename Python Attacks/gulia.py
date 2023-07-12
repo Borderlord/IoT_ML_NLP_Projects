@@ -6,4 +6,7 @@ import random
 
 #sleep(1)
 browser = RoboBrowser(parser='html.parser')
-browser.open
+browser.open('http://cyberkeys.us/contact')
+#print (random.randint(1,12301983013801932801239))
+# Get the signup form
+cform = browser.get_form(action='/contact/#wpcf
