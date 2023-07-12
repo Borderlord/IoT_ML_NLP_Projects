@@ -84,4 +84,6 @@ w_sunset =json_obj['sys']['sunset']
 wb.open_new_tab(url);
 
 uurl="precipitation" ;#"temperature","wind speed";
-#wb.open
+#wb.open_new_tab("https://openweathermap.org/weathermap?basemap=map&cities=true&layer="+uurl+"&lat=28&lon=78&zoom=4");
+
+#print w_country;
