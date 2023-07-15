@@ -11,4 +11,6 @@ browser.open('http://cyberkeys.us/contact')
 # Get the signup form
 cform = browser.get_form(action='/contact/#wpcf7-f206-p20-o1')
 cform['your-name'].value =  str(random.randint(1,12301983013801932801239)-234234)
-cform['your-email'].value =  str(random.randint(1,12301
+cform['your-email'].value =  str(random.randint(1,12301983013801932801239))+'@hacker.c'
+cform['tel-458'].value =  random.randint(1,12301983013801932801239)-973294729
+cform['your-message'].value = str(cfor
