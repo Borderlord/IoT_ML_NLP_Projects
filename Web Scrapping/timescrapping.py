@@ -21,4 +21,10 @@ soup = BeautifulSoup(html_doc,"html.parser");
 #print(soup.head)
 #print(soup.head.string)
 #print(soup.find_all('p'));
-#print(s
+#print(soup.find(id="link1").string);
+#for link in soup.find_all('a'):
+# print(link.get('href'));
+#print(soup.get)
+#print(soup.find(id="link3").string);
+
+data
