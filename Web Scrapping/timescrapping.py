@@ -14,4 +14,11 @@ and they lived at the bottom of a well.</p>
 
 <p class="story">...</p>
 """
-soup = BeautifulSoup(html_doc,"ht
+soup = BeautifulSoup(html_doc,"html.parser");
+#print(soup.prettify);
+#print(soup.a);
+#print(soup.find_all('a'));
+#print(soup.head)
+#print(soup.head.string)
+#print(soup.find_all('p'));
+#print(s
