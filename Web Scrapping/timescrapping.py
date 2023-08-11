@@ -27,4 +27,8 @@ soup = BeautifulSoup(html_doc,"html.parser");
 #print(soup.get)
 #print(soup.find(id="link3").string);
 
-data
+data=urllib.urlopen("https://www.timeanddate.com/worldclock/india/new-delhi");
+soup=BeautifulSoup(data,"html.parser");
+time=soup.find(id="ct");
+date=soup.find(id="ctdat");
+#wl = soup.fin
