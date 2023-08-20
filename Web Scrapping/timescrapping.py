@@ -31,4 +31,9 @@ data=urllib.urlopen("https://www.timeanddate.com/worldclock/india/new-delhi");
 soup=BeautifulSoup(data,"html.parser");
 time=soup.find(id="ct");
 date=soup.find(id="ctdat");
-#wl = soup.fin
+#wl = soup.find_all(attrs={"class":"offset-4"})
+weather=soup.find(id="wt-tp");
+print"time in New Delhi :" ,time.string,"Date :" ,date.string ,"Temperature:",weather.string;
+
+
+
