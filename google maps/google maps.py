@@ -12,4 +12,6 @@ reverse_geocode_result = gmaps.reverse_geocode((40.714224, -73.961452))
 now = datetime.now()
 directions_result = gmaps.directions("Sydney Town Hall",
                                      "Parramatta, NSW",
-           
+                                     mode="driving",
+                                     departure_time=now)
+print directions_result
