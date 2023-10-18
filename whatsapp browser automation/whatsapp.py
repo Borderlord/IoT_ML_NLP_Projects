@@ -17,4 +17,10 @@ wait = WebDriverWait(driver, 600)
 target = '""'
  
 # Replace the below string with your own message
-stri
+string = "37 x "
+string1 = "= "
+
+ 
+x_arg = '//span[contains(@title,' + target + ')]'
+group_title = wait.until(EC.presence_of_element_located((
+    By.XP
