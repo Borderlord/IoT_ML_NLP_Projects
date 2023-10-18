@@ -12,4 +12,9 @@ driver = webdriver.Chrome('C:/Users/vikas yadav/Downloads/chromedriver.exe')
 driver.get("https://web.whatsapp.com/")
 wait = WebDriverWait(driver, 600)
  
-# 
+# Replace 'Friend's Name' with the name of your friend 
+# or the name of a group 
+target = '""'
+ 
+# Replace the below string with your own message
+stri
