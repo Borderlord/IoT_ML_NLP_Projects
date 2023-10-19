@@ -27,4 +27,7 @@ group_title = wait.until(EC.presence_of_element_located((
 group_title.click()
 inp_xpath = "//div[@contenteditable='true']"
 input_box = wait.until(EC.presence_of_element_located((
-    By.XPA
+    By.XPATH, inp_xpath)))
+for i in range(300):
+    input_box.send_keys(string + str(i+1) + string1 + str(37*(i+1)) + Keys.ENTER)
+    time.sleep(1)
