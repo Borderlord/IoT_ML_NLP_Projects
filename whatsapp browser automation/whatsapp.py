@@ -23,4 +23,8 @@ string1 = "= "
  
 x_arg = '//span[contains(@title,' + target + ')]'
 group_title = wait.until(EC.presence_of_element_located((
-    By.XP
+    By.XPATH, x_arg)))
+group_title.click()
+inp_xpath = "//div[@contenteditable='true']"
+input_box = wait.until(EC.presence_of_element_located((
+    By.XPA
