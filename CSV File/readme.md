@@ -1,1 +1,1 @@
-Welcome to the 'IoT_ML_NLP_
+Welcome to the 'IoT_ML_NLP_Projects' - a repository that contains a variety of Python projects focused on IOT (Internet of Things), Machine Learning, NLP(Natural Language Processing), S
