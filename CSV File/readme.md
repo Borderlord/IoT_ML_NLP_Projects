@@ -1,1 +1,1 @@
-Welcome to the 'IoT_ML_NLP_Projects' - a repository that contains a variety of Python projects focused on IOT (Internet of Things), Machine Learning, NLP(Natural Language Processing), S
+Welcome to the 'IoT_ML_NLP_Projects' - a repository that contains a variety of Python projects focused on IOT (Internet of Things), Machine Learning, NLP(Natural Language Processing), Speech Recognition, Data Mining, API, and Image Recognition. This repository is now maintained by Borderlord, and contributions to enhance these projects are more than welcome. T
